@@ -1,0 +1,1 @@
+Refactor Model $casts property with casts() method
