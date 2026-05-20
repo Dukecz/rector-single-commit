@@ -1,1 +1,1 @@
-Add "void" return type to functions without return values
+Add return type void to function like without any return

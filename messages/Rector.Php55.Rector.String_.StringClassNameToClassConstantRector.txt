@@ -1,1 +1,1 @@
-Replace string class names by ::class constant
+Replace string class names by `<class>::class` constant

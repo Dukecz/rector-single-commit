@@ -1,1 +1,1 @@
-Convert long array() to short []
+Long array to short array

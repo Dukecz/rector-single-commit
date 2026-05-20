@@ -1,1 +1,1 @@
-Replace old classes with new ones
+Replace defined classes by new ones

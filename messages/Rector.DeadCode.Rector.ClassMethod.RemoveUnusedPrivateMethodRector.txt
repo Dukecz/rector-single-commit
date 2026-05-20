@@ -1,1 +1,1 @@
-Remove unused private methods
+Remove unused private method

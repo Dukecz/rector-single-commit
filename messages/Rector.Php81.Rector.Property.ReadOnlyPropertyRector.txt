@@ -1,1 +1,1 @@
-Decorate read-only properties with "readonly" attribute
+Decorate read-only property with `readonly` attribute

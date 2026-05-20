@@ -1,1 +1,1 @@
-Remove duplicated keys in arrays
+Remove duplicated key in defined arrays

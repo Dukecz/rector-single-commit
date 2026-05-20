@@ -1,1 +1,1 @@
-Replace class constants with newer versions
+Replace defined class constants in their calls

@@ -1,1 +1,1 @@
-Move optional parameters after required ones in method signatures
+Add reasonable default value when a required parameter follows an optional one

@@ -1,1 +1,1 @@
-Simplify "$value=$value+5" assignments
+Simplify $value = $value + 5; assignments to shorter ones

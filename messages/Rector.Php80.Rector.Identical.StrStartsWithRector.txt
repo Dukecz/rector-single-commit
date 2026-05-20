@@ -1,1 +1,1 @@
-Convert substr() to str_starts_with()
+Change helper functions to str_starts_with()

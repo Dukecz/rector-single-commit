@@ -1,1 +1,1 @@
-Reduce always false in a "if ( || )" condition
+Reduce always false in a `if (a || b)` condition

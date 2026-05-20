@@ -1,1 +1,1 @@
-Add Stringable interface to classes with __toString() method
+Add `Stringable` interface to classes with `__toString()` method

@@ -1,1 +1,1 @@
-Add "#[\Override]" attribute to overridden methods
+Add override attribute to overridden methods

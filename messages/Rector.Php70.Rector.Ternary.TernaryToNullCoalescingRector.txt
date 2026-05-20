@@ -1,1 +1,1 @@
-Change unneeded null check to ?? operator
+Changes unneeded null check to ?? operator
