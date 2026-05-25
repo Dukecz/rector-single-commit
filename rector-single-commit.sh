@@ -27,7 +27,7 @@ while [ $# -gt 0 ]; do
             shift
             ;;
         *)
-            commitMessagePrefix="$1"
+            commitMessagePrefix="${1:-rector: }"
             shift
             ;;
     esac
