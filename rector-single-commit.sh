@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Create single commits for all php-rector rules
 # Needs:
 # - git
