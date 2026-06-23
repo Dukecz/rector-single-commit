@@ -1,0 +1,3 @@
+Use icons from subfolder in IconRegistry
+
+https://github.com/TYPO3/typo3/tree/v10.4.10/typo3/sysext/core/Resources/Public/Icons/T3Icons/svgs

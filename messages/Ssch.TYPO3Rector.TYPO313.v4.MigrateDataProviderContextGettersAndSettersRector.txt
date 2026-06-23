@@ -1,0 +1,3 @@
+Migrate DataProviderContext getters and setters
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/13.4/Deprecation-105252-DataProviderContextGettersAndSetters.html

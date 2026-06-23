@@ -1,0 +1,3 @@
+Migrate `BackendUtility::getRecordToolTip()` to `BackendUtility::getRecordIconAltText()`
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/12.4/Deprecation-100459-BackendUtilitygetRecordToolTip.html

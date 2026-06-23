@@ -1,0 +1,3 @@
+Generate or add registerIcon calls to Icons.php file
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/11.4/Feature-94692-RegisteringIconsViaServiceContainer.html

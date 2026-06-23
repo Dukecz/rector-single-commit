@@ -1,0 +1,1 @@
+Add Autoconfigure attribute for public or non-shared services

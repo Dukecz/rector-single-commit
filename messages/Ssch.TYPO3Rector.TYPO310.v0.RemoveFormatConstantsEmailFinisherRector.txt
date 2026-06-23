@@ -1,0 +1,3 @@
+Remove constants `FORMAT_PLAINTEXT` and `FORMAT_HTML` of class `TYPO3\CMS\Form\Domain\Finishers\EmailFinisher`
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/10.0/Deprecation-87200-EmailFinisherFormatContants.html

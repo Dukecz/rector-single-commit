@@ -1,0 +1,3 @@
+Migrate LLL references to the new domain-based notation
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/14.0/Feature-93334-TranslationDomainMapping.html

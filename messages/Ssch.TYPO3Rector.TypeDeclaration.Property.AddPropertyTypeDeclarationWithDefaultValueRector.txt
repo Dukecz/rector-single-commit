@@ -1,0 +1,1 @@
+Add type to property by added rules, mostly public/property by parent type with defined default value

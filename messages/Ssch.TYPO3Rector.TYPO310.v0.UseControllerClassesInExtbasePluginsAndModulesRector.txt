@@ -1,0 +1,3 @@
+Use controller classes when registering extbase plugins/modules
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/10.0/Deprecation-87550-UseControllerClassesWhenRegisteringPluginsmodules.html

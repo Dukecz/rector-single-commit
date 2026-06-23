@@ -1,0 +1,3 @@
+Migrate the method `BackendUtility::editOnClick()` to use UriBuilder API
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/10.1/Deprecation-88787-BackendUtilityEditOnClick.html

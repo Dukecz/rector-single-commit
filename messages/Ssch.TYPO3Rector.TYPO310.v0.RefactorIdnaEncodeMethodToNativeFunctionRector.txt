@@ -1,0 +1,3 @@
+Use native function `idn_to_ascii` instead of `GeneralUtility::idnaEncode()`
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/10.0/Deprecation-87894-GeneralUtilityidnaEncode.html

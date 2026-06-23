@@ -1,0 +1,3 @@
+Migrate boolean sort direction in \TYPO3\CMS\Filelist\FileList->start()
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/14.0/Deprecation-107225-BooleanSortDirectionInFileListStart.html

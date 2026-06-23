@@ -1,0 +1,3 @@
+Migrate TemplateService to ServerRequest frontend.typsocript attribute
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/12.1/Deprecation-99020-DeprecateTypoScriptTemplateService.html

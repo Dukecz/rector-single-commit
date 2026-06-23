@@ -1,0 +1,1 @@
+Remove showRemovedLocalizationRecords from inline TCA configuration

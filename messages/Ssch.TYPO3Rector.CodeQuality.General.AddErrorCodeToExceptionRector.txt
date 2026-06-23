@@ -1,0 +1,1 @@
+Add timestamp error code to exceptions

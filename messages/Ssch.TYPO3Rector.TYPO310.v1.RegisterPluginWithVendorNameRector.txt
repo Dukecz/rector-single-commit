@@ -1,0 +1,3 @@
+Remove vendor name from registerPlugin call
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/10.1/Deprecation-88995-CallingRegisterPluginWithVendorName.html

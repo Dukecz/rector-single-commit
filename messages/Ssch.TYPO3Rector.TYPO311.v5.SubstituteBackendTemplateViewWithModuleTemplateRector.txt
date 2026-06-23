@@ -1,0 +1,3 @@
+Use an instance of ModuleTemplate instead of BackendTemplateView
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/11.5/Deprecation-95164-ExtbackendBackendTemplateView.html

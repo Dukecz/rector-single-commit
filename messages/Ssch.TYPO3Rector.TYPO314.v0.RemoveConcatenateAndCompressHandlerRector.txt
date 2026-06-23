@@ -1,0 +1,3 @@
+Remove concatenate and compress handler configuration
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/14.0/Breaking-108055-RemovedPageRendererRelatedHooksAndMethods.html

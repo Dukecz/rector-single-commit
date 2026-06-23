@@ -1,0 +1,3 @@
+Migrate `GeneralUtility::createVersionNumberedFilename()`
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/14.0/Deprecation-107537-CreateVersionNumberedFileName.html

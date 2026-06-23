@@ -1,0 +1,1 @@
+Remove Typo3Version checks for older TYPO3 versions

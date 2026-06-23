@@ -1,0 +1,3 @@
+Migrate TypoScriptFrontendController->addCacheTags() and ->getPageCacheTags()
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/13.3/Deprecation-102422-TypoScriptFrontendController-addCacheTags.html

@@ -1,0 +1,3 @@
+Remove the second charset parameter from sanitizeFileName method in DriverInterface implementations
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/14.0/Breaking-105686-AvoidObsoleteCharsetInSanitizeFileName.html

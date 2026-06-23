@@ -1,0 +1,1 @@
+Migrate constants to enum class

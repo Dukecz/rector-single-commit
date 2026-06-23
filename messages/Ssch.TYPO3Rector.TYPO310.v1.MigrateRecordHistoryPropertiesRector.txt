@@ -1,0 +1,3 @@
+Migrate protected RecordHistory properties
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/10.1/Deprecation-89127-CleanupRecordHistoryHandling.html

@@ -1,0 +1,3 @@
+Rewrite method calls of `GeneralUtility::getUrl(
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/10.4/Deprecation-90956-AlternativeFetchMethodsAndReportsForGeneralUtilitygetUrl.html

@@ -1,0 +1,3 @@
+Migrate `GeneralUtility::_GPmerged()` to use PSR-7 ServerRequest instead
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/12.2/Deprecation-99615-GeneralUtilityGPMerged.html#deprecation-99615-generalutility-gpmerged

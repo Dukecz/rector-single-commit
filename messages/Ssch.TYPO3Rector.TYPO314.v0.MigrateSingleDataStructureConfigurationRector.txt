@@ -1,0 +1,3 @@
+Remove pointer field functionality of TCA flex
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/14.0/Breaking-107047-RemovePointerFieldFunctionalityOfTCAFlex.html

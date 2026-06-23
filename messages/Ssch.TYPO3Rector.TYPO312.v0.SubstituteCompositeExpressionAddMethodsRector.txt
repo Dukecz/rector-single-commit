@@ -1,0 +1,3 @@
+Replace `add()` and `addMultiple()` of CompositeExpression with `with()`
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/12.0/Deprecation-97244-CompositeExpressionMethodsAddAndAddMultiple.html

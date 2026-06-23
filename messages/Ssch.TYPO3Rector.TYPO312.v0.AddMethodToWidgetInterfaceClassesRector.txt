@@ -1,0 +1,3 @@
+Add `getOptions()` to classes that implement the WidgetInterface
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/12.0/Breaking-96222-AddGetOptionsToWidgetInterface.html

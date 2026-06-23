@@ -1,0 +1,3 @@
+Extend Extbase Validators from AbstractValidator
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/14.0/Breaking-106056-AddSetRequestAndGetRequestToExtbaseValidatorInterface.html

@@ -1,0 +1,3 @@
+Use ActionController class instead of AbstractController
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/10.2/Deprecation-89554-DeprecateTYPO3CMSExtbaseMvcControllerAbstractController.html

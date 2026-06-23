@@ -1,0 +1,3 @@
+Use Strict Types in Fluid ViewHelpers
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/14.0/Breaking-108148-StrictTypesInFluidViewHelpers.html

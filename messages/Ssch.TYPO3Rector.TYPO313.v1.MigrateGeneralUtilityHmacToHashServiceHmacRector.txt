@@ -1,0 +1,3 @@
+Migrate `GeneralUtility::hmac()` to `HashService::hmac()`
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/13.1/Deprecation-102762-GeneralUtilityhmac.html

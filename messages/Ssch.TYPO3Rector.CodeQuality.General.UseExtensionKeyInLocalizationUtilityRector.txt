@@ -1,0 +1,1 @@
+Replace the second parameter of `LocalizationUtility::translate()` with the extension name

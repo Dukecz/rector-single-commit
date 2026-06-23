@@ -1,0 +1,3 @@
+Use PageRenderer and IconFactory directly instead of getting them from the ModuleTemplate
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/11.5/Deprecation-95235-PublicGetterOfServicesInModuleTemplate.html

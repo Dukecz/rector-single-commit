@@ -1,0 +1,3 @@
+Renamed Page Tree Navigation Component ID
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/13.1/Deprecation-103850-RenamedPageTreeNavigationComponentID.html

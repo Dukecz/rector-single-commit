@@ -1,0 +1,3 @@
+Use `\\TYPO3\\CMS\\Core\\View\\ViewInterface` in Extbase and call `$view->getRenderingContext()` to perform operations instead
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/13.3/Deprecation-101559-ExtbaseUsesExtcoreViewInterface.html

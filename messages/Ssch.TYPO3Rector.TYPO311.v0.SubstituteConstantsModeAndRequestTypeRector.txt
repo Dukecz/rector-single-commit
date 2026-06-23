@@ -1,0 +1,3 @@
+Substitute `TYPO3_MODE` and `TYPO3_REQUESTTYPE` constants
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/11.0/Deprecation-92947-DeprecateTYPO3_MODEAndTYPO3_REQUESTTYPEConstants.html

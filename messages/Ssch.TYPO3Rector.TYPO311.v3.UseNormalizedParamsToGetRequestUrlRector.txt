@@ -1,0 +1,3 @@
+Use normalized params to get the request url
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/11.3/Deprecation-94228-DeprecateExtbaseRequestGetRequestUri.html

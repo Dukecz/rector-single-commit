@@ -1,0 +1,3 @@
+Unset the value in the config mmHasUidField
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/13.0/Deprecation-101554-ObsoleteTCAMM_hasUidField.html

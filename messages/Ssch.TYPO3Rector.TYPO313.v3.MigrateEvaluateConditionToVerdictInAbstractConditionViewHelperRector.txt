@@ -1,0 +1,3 @@
+Migrate evaluateCondition() to verdict() in AbstractConditionViewHelper subclasses
+
+https://github.com/TYPO3/Fluid/blob/main/CHANGELOG.md

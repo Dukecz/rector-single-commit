@@ -1,0 +1,3 @@
+Convert usages of DuplicationBehavior to its Enum equivalent
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/13.0/Deprecation-101151-DuplicationBehaviorClass.html

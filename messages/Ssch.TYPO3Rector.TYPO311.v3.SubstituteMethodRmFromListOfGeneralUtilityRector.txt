@@ -1,0 +1,3 @@
+Use native php functions instead of `GeneralUtility::rmFromList()`
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/11.3/Deprecation-94311-DeprecatedGeneralUtilityrmFromList.html

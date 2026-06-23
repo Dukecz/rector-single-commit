@@ -1,0 +1,3 @@
+Use constants from TYPO3 database connection instead of PDO constants
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/8.1/Feature-75454-DoctrineDBALForDatabaseConnections.html

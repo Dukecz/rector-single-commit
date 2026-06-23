@@ -1,0 +1,3 @@
+Use PSR-7 compatible request for uri instead of the method `getBaseUri()`
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/11.3/Deprecation-94223-ExtbaseRequest-getBaseUri.html

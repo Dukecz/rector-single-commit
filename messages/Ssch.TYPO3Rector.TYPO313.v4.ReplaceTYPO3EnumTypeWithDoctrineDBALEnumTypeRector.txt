@@ -1,0 +1,3 @@
+Replace TYPO3 EnumType with Doctrine DBAL EnumType
+
+https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/13.4/Deprecation-105279-ReplaceTYPO3EnumTypeWithDoctrinedbalEnumType.html
