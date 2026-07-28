@@ -1,0 +1,1 @@
+Turn static call to function call
