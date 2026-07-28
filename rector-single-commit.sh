@@ -113,10 +113,14 @@ for rule in $rules; do
         continue
     fi
 
-    git commit\
-        --all\
+    # git add -A (not `git commit --all`) so new files a rule creates
+    # (e.g. new TCA override files) get committed too, not left untracked.
+    git add -A
+    # -F - reads the message from stdin verbatim, so a rule title containing
+    # "$" / backticks can never be re-expanded by the shell.
+    printf '%s' "$commitMessage" | git commit\
         --author='Rector <rector@getrector.com>'\
-        --message="$commitMessage"
+        --file=-
 done
 
 echo "Complete"
