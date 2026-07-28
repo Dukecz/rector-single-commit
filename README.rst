@@ -47,6 +47,8 @@ and stop processing.
 The `find a rule`__ tool on rector helps to get a short description
 for a given rule.
 
+When a rule is unknown you can allow the script to auto fetch
+
 __ https://getrector.com/find-rule
 
 

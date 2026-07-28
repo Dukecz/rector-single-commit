@@ -86,7 +86,20 @@ for rule in $rules; do
         echo -n " https://getrector.com/find-rule?query="
         echo "$rule" | sed 's/^.*\\//'
         echo " $messageFilePath" >&2
-        exit 3
+
+        toolDir=$(dirname "$0")
+        read -r -p "Fetch description from getrector.com and create+commit the message file? [y/N] " reply || reply=""
+        if [ "$reply" != "y" ] && [ "$reply" != "Y" ]; then
+            exit 3
+        fi
+
+        "$toolDir/fetch-rule-message.sh" "$rule" "$messageFilePath"
+
+        git -C "$toolDir" add "$messageFilePath"
+        git -C "$toolDir" commit --message="Add message for $(echo "$rule" | sed 's/^.*\\//') rule"
+
+        echo "Committed the new message file. Review and push it from the tool repo:" >&2
+        echo "  cd $toolDir && git show && git push" >&2
     fi
 
     messageFileContents=$(<"$messageFilePath")
