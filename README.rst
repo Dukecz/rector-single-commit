@@ -32,6 +32,9 @@ Run it with an optional git commit message prefix::
 
 It will then create a single git commit for each rector rule.
 
+Run it with --global-path to use global composer::
+
+   rector-single-commit.sh --global-path
 
 Commit messages
 ---------------

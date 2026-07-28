@@ -6,17 +6,39 @@
 # - rector (in vendor/bin or RECTOR_PATH)
 set -e
 
-if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
-    echo "rector-single-commit.sh [commit message prefix]"
-    echo "Options:"
-    echo " -h, --help: Show help"
-    exit
-fi
-
-commitMessagePrefix="$1"
+globalPath=""
+commitMessagePrefix=""
+while [ $# -gt 0 ]; do
+    case "$1" in
+        -h|--help)
+            echo "rector-single-commit.sh [commit message prefix] [--global-path[=PATH]]"
+            echo "Options:"
+            echo " -h, --help: Show help"
+            echo " --global-path[=PATH]: Use a global rector executable instead of ./vendor/bin/rector"
+            echo "     (default: \$HOME/.config/composer/vendor/bin/rector)"
+            exit
+            ;;
+        --global-path=*)
+            globalPath="${1#--global-path=}"
+            shift
+            ;;
+        --global-path)
+            globalPath="$HOME/.config/composer/vendor/bin/rector"
+            shift
+            ;;
+        *)
+            commitMessagePrefix="$1"
+            shift
+            ;;
+    esac
+done
 
 messagesDir=$(dirname "$0")/messages
-rectorPath=${RECTOR_PATH:-./vendor/bin/rector}
+if [ -n "$globalPath" ]; then
+    rectorPath="$globalPath"
+else
+    rectorPath=${RECTOR_PATH:-./vendor/bin/rector}
+fi
 if [ ! -x "$rectorPath" ]; then
     echo "rector executable not found at $rectorPath" >&2
     exit 1
