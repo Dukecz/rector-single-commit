@@ -31,15 +31,19 @@ html=$(curl -fsSL "$url") || {
 
 description=$(php -r '
     [$html, $shortName] = [$argv[1], $argv[2]];
-    // Rule blocks on getrector.com look like:
-    // <h3 ...><a ...>RuleName</a></h3>\n<p>Description</p>
-    $pattern = "/<h3[^>]*>\s*<a[^>]*>\s*" . preg_quote($shortName, "/") . "\s*<\/a>\s*<\/h3>\s*<p[^>]*>(.*?)<\/p>/s";
-    if (preg_match($pattern, $html, $matches)) {
-        echo trim(html_entity_decode(strip_tags($matches[1]), ENT_QUOTES | ENT_HTML5));
-        exit(0);
+    libxml_use_internal_errors(true);
+    $dom = new DOMDocument();
+    $dom->loadHTML($html);
+    // Rule cards on getrector.com look like:
+    // <div class="rule-card__head"><a ...>RuleName</a> ...</div> <p>Description</p>
+    $nodes = (new DOMXPath($dom))->query(sprintf(
+        "//div[contains(@class, \"rule-card__head\")][normalize-space(a) = \"%s\"]/following-sibling::p[1]",
+        $shortName
+    ));
+    if ($nodes->length === 0) {
+        exit(1);
     }
-    exit(1);
-' "$html" "$shortName") || {
+    echo trim($nodes->item(0)->textContent);' "$html" "$shortName") || {
     echo "Could not find rule '$shortName' on $url" >&2
     exit 1
 }
